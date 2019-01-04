@@ -4,7 +4,9 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
-  :dependencies [[org.clojure/clojure "1.8.0"]]
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.apache.thrift/libthrift "0.10.0"]
+                 [com.fzakaria/slf4j-timbre "0.3.12"]]
 
   ;; If you'd rather use a different directory structure, you can set these.
   :source-paths ["src/main/clojure"]
